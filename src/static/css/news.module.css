@@ -1,0 +1,1069 @@
+body{
+  
+  overflow-y: hidden;      
+  min-width: 100vw;
+  background-color: #141414;
+}
+.container{
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+  min-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-color: #141414;
+  margin-left: -1.4vw;
+  padding-left: 1.4vw;
+  scrollbar-width: thin; /* для Firefox */
+      scrollbar-color: transparent transparent; /* для Firefox */
+      /* Для WebKit (Chrome, Safari) */
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+      }
+}
+.MainBlock{
+   
+    
+    min-width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.BlockOfOneNew{
+ 
+  display: flex;
+  flex-direction: column;
+    min-width:  35vw;
+   
+    min-height: 20vw;
+    margin-left:35vw;
+    margin-right: 35vw;
+    background-color: rgba(135, 116, 116, 0.38);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.userName{
+  color: #ffffffa1;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 25px;
+}
+.HeaderUserAndTime{
+  display: flex;
+  margin-left: 2vw;
+  flex-direction: row;
+}
+.image{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  
+
+}
+.imageBlock{
+  margin-left: 5px;
+}
+.imageBlock{
+  margin-top: 2.5vh;
+}
+.timeBlock{
+  margin-top: -2vh;
+  margin-left: 2vw;
+}
+.time{
+  color: #ffffffa1;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+}
+.ContentNewText{
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  
+}
+.ContentNew{
+  display: flex;  
+  min-width: 90%;
+  max-width: 90%;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+ hyphens: auto;
+}
+.ahreafBlock{
+  margin-left: 30px;
+  margin-top: -2vh;
+}
+.ahref{
+  color:rgba(209, 65, 65, 1);
+  text-decoration: none;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+}
+.img{
+  width: 400px;
+  height: auto;
+}
+.NewImageBlock{
+  margin-top: 2vh;
+  margin-left: 5vw;
+}
+.LikesImg{
+  width: 2vw;
+  height: 3vh;
+}
+.BlockOfLikesAndComments{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vw;
+  max-width: 6vw;
+}
+.likesBlock{
+  border-radius: 9px;
+  display: flex;
+  max-width: 5vw;
+  min-width: 5vw;
+  max-height: 4vh;
+  background-color: #494949;
+  justify-content: space-evenly;
+  
+}
+.BlockImg{
+  margin-top: 0.5vh;
+  margin-left: -1vw;
+}
+.TextInLikes{
+  color: #ffffff;
+font-family: "Inter-Regular", Helvetica;
+font-size: 20px;
+}
+.TextBlockLikes{
+  margin-top: -1.4vh;
+  margin-left: -1vw;
+}
+.commentsBlock{
+  border-radius: 9px;
+  display: flex;
+  max-width: 5vw;
+  min-width: 5vw;
+  max-height: 4vh;
+  background-color: #494949;
+  justify-content: space-evenly;
+  margin-left: 1vw;
+}
+.BlockImg{
+  margin-top: 0.5vh;
+  margin-left: -1vw;
+}
+.TextInComments{
+  color: #ffffff;
+font-family: "Inter-Regular", Helvetica;
+font-size: 20px;
+}
+.TextBlockComments{
+  margin-top: -1.4vh;
+  margin-left: -1vw;
+}
+@media screen and (max-width: 1550px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 4vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    max-width: 6vw;
+  }
+}
+@media screen and (max-width: 2000px) {
+  
+  .BlockOfOneNew{
+ 
+    display: flex;
+    flex-direction: column;
+      min-width:  35vw;
+     max-width: 600px;
+      min-height: 20vw;
+      margin-left:35vw;
+      margin-right: 35vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 6vw;
+    margin-right: 1vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  35vw;
+     
+      min-height: 20vw;
+      margin-left:27vw;
+      margin-right: 27vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 3vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+    max-width: 6vw;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+    margin-right: 1vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  35vw;
+     
+      min-height: 20vw;
+      margin-left:27vw;
+      margin-right: 27vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body{
+    overflow-x: hidden;
+  }
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  35vw;
+     
+      min-height: 20vw;
+      margin-left:27vw;
+      margin-right: 27vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left:5vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  45vw;
+     max-width: 45vw;
+      min-height: 20vw;
+      margin-left:22vw;
+      margin-right: 22vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left:4vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  45vw;
+     max-width: 45vw;
+      min-height: 20vw;
+      margin-left:22vw;
+      margin-right: 22vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left:3vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  45vw;
+     max-width: 45vw;
+      min-height: 20vw;
+      margin-left:22vw;
+      margin-right: 22vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left:2vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  45vw;
+     max-width: 45vw;
+      min-height: 20vw;
+      margin-left:22vw;
+      margin-right: 22vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 7vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  60vw;
+     max-width: 60vw;
+      min-height: 20vw;
+      margin-left:20vw;
+      margin-right: 20vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 3vw;
+    height: 3vh;
+  }
+  .BlockImg{
+    margin-top: 5px;
+    margin-left: -1vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 8vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  60vw;
+     max-width: 60vw;
+      min-height: 20vw;
+      margin-left:17vw;
+      margin-right: 17vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 3vh;
+    height: 5vh;
+  }
+  .BlockImg{
+    margin-top: -5px;
+    margin-left: -1vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 5vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  60vw;
+      max-width: 60vw;
+     
+      min-height: 20vw;
+      margin-left:15vw;
+      margin-right: 15vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 3vw;
+    height: 3vh;
+  }
+  .BlockImg{
+    margin-top: 4px;
+    margin-left: -1vw;
+  }
+}
+@media screen and (max-width: 750px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 7vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  70vw;
+      max-width: 70vw;
+     
+      min-height: 20vw;
+      margin-left:15vw;
+      margin-right: 15vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 10vw;
+    min-width: 10vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 3vw;
+    height: 3vh;
+  }
+  .BlockImg{
+    margin-top: 4px;
+    margin-left: -1vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .img{
+    width: 400px;
+    height: 300px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 5vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    max-width: 3vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  70vw;
+      max-width: 70vw;
+     
+      min-height: 18vh;
+      margin-left:13vw;
+      margin-right: 13vw;
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 5vh;
+    height: 5vw;
+  }
+  .BlockImg{
+    margin-top: 0vw;
+    margin-left: -1vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .img{
+    width: 400px;
+    height: 300px;
+    height: auto;
+  }
+  .NewImageBlock{
+    margin-top: 2vh;
+    margin-left: 4vw;
+  }
+  .BlockOfLikesAndComments{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    max-width: 6vw;
+  }
+  .BlockOfOneNew{
+    display: flex;
+    flex-direction: column;
+      min-width:  35vw;
+     
+      min-height: 18vh;
+      min-width: 80vw;
+      max-width: 80vw;
+      
+      background-color: rgba(135, 116, 116, 0.38);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+  }
+  .MainBlock{
+    margin-left: -1vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.likesBlock{
+  border-radius: 9px;
+  display: flex;
+  max-width: 12vw;
+  min-width: 12vw;
+  max-height: 4vh;
+  background-color: #494949;
+  justify-content: space-evenly;
+  
+}
+.commentsBlock{
+  border-radius: 9px;
+  display: flex;
+  max-width: 12vw;
+  min-width: 12vw;
+  max-height: 4vh;
+  background-color: #494949;
+  justify-content: space-evenly;
+  margin-left: 1vw;
+}
+.LikesImg{
+  width: 5vh;
+  height: 5vw;
+}
+.BlockImg{
+  
+  margin-left: -1vw;
+}
+}
+
+  @media screen and (max-width: 600px) {
+   
+    .container{
+      overflow-x: hidden;
+      
+    }
+    .img{
+      width: 300px;
+      height: 200px;
+      height: auto;
+    }
+    .NewImageBlock{
+      margin-top: 2vh;
+      margin-left: 15vw;
+    }
+    .BlockOfLikesAndComments{
+      display: flex;
+      flex-direction: row;
+      margin-left: 6vw;
+      max-width: 6vw;
+    }
+    .BlockOfOneNew{
+      display: flex;
+      flex-direction: column;
+        min-width:  35vw;
+       
+        min-height: 18vh;
+        
+        min-width: 80vw;
+        max-width: 80vw;
+        
+        background-color: rgba(135, 116, 116, 0.38);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    .MainBlock{
+      margin-left: 1vw;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 5vh;
+    height: 5vw;
+  }
+  .BlockImg{
+    
+    margin-left: -1vw;
+  }
+  }
+
+  @media screen and (max-width: 550px) {
+    .img{
+      width: 250px;
+      height: 170px;
+      height: auto;
+    }
+    .NewImageBlock{
+      margin-top: 2vh;
+      margin-left: 15vw;
+    }
+    .BlockOfLikesAndComments{
+      display: flex;
+      flex-direction: row;
+      margin-left: 6vw;
+      max-width: 6vw;
+    }
+    .BlockOfOneNew{
+      display: flex;
+      flex-direction: column;
+        min-width:  35vw;
+       
+        min-height: 18vh;
+        min-width: 80vw;
+        max-width: 80vw;
+        
+        background-color: rgba(135, 116, 116, 0.38);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    .MainBlock{
+      margin-left: 1vw;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 5vh;
+    height: 5vw;
+  }
+  .BlockImg{
+    
+    margin-left: -1vw;
+  }
+  }
+  @media screen and (max-width: 470px) {
+    .img{
+      width: 250px;
+      height: 170px;
+      height: auto;
+    }
+    .NewImageBlock{
+      margin-top: 2vh;
+      margin-left: 13vw;
+    }
+    .BlockOfLikesAndComments{
+      display: flex;
+      flex-direction: row;
+      margin-left: 6vw;
+      max-width: 6vw;
+    }
+    .BlockOfOneNew{
+      display: flex;
+      flex-direction: column;
+        min-width:  35vw;
+       
+        min-height: 18vh;
+        min-width: 80vw;
+        max-width: 80vw;
+        
+        background-color: rgba(135, 116, 116, 0.38);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    .MainBlock{
+      margin-left: -0.5vw;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 5vh;
+    height: 5vw;
+  }
+  .BlockImg{
+    
+    margin-left: -1vw;
+  }
+  }
+  @media screen and (max-width: 430px) {
+    .img{
+      width: 250px;
+      height: 170px;
+      height: auto;
+    }
+    .NewImageBlock{
+      margin-top: 2vh;
+      margin-left: 10vw;
+    }
+    .BlockOfLikesAndComments{
+      display: flex;
+      flex-direction: row;
+      margin-left: 6vw;
+      max-width: 6vw;
+    }
+    .BlockOfOneNew{
+      display: flex;
+      flex-direction: column;
+        min-width:  35vw;
+       
+        min-height: 18vh;
+        min-width: 90vw;
+        max-width: 90vw;
+        
+        background-color: rgba(135, 116, 116, 0.38);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    .MainBlock{
+      margin-left: -3vw;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .likesBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    
+  }
+  .commentsBlock{
+    border-radius: 9px;
+    display: flex;
+    max-width: 12vw;
+    min-width: 12vw;
+    max-height: 4vh;
+    background-color: #494949;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+  }
+  .LikesImg{
+    width: 5vh;
+    height: 5vw;
+  }
+  .BlockImg{
+    margin-top: 1vh;
+    margin-left: -1vw;
+  }
+  }

@@ -1,0 +1,341 @@
+
+.nav {
+    
+    background-color: linear-gradient(180deg, rgb(240.12, 32.02, 32.02) 0%, rgb(80.75, 11.44, 11.44) 98.5%);; /* Background color of the NavBar container */
+    padding: 5px;   
+     /* Padding around the NavBar container */
+    
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    min-height: 1vw;
+    position: relative;
+    margin-top: -8px;
+}
+
+.navInner {
+    display: flex;
+    align-items: flex-start; /* Add this line */
+}
+
+.logoDiv{
+    display: flex;
+    flex-direction: row;
+}
+.logoText{
+    color:#000000;
+    font-family: 'Kaint-Regular',Helvetica;
+    font-size: 20px;
+    
+    
+}
+
+
+
+.input{
+    background-color: #E7E7E7;
+    border: none;
+    min-height: 36px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-width: 80%;
+    margin-left: 60px;
+    color: #D3A6A6;
+    
+}
+.input:focus {
+    outline: none;
+  }
+.formBlock{ 
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%
+    
+}
+.authBlock{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(176, 79, 79, 0.71);
+}
+.lastBlock{
+    display: flex;
+    justify-content: space-between;
+   
+    color: rgba(176, 79, 79, 0.71);
+}
+.textBloclk{
+    color: rgba(104, 20, 20, 0.8);
+    
+    margin-left: 60px
+}
+.links{
+    text-decoration: none;
+    
+    color: rgba(210, 112, 112, 0.96);
+}
+
+.btn{
+    border: none;
+    border-radius: 7px;
+    min-height: 45px;
+    background-color: rgba(234, 120, 120, 1);
+    min-width: 182px;
+    margin-top: 5px;
+    margin-right: 50px;
+
+}
+.btnBlock{
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+.btn:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+} 
+.btn:hover{
+    cursor: pointer;
+}
+    .NavLinks{
+        text-decoration: none;
+        color: #783c3c;
+        transition: transform 0.3s ease;
+        font-size:17px;
+        
+    }
+   
+    .formDiv{
+        display: flex;
+        margin-left: 60px;
+    }
+    
+    .NavP{
+        
+        padding-top: -20px;
+      
+        color: #cb3a3a;
+        font-size:17px;
+       
+    }
+    .navMenu {
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 100vw;
+        align-items: flex-start; /* Add this line */
+    }
+    
+    .navMenuItem {
+        display: inline-block;
+        margin-right: 10px;
+        color: #FFFFFF;
+        font-size: 14px;
+        display: flex;
+        align-items: flex-start;
+    }
+   
+    
+    .navMenuItemP {
+        margin-top: -16px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+        
+        color: #FFFFFF;
+        font-size: 14px;
+        align-self: flex-start; /* Add this line */
+      }
+      .NavImg{
+        border-radius: 10px;
+        display: flex;
+        margin-top: 13px;
+        align-items: center;
+        justify-content: center;
+      }
+      @media screen and (max-width: 3000px) {
+        .nav {
+            background-color: #D29F9F; /* Background color of the NavBar container */
+            margin-left: 30vw;
+             min-width: 5vw;
+             padding-left: 5px;
+             max-width: 40vw;
+            
+            margin-bottom: 5vh;
+            border-radius: 10px;
+            min-height: 1vw;
+            position: relative;
+            margin-top: -8px;
+        }
+        
+        .navInner {
+            display: flex;
+            align-items: flex-start; /* Add this line */
+        }
+        .navMenuItem {
+            margin-right: 10px;
+            color: #FFFFFF;
+            font-size: 14px;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .navMenuItemP {
+            margin-top: -16px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            
+            
+            color: #FFFFFF;
+            font-size: 12px;
+            align-self: flex-start; /* Add this line */
+          }
+
+        
+      }
+      @media screen and (max-width: 1200px) {
+        .nav {
+            background-color: #D29F9F; /* Background color of the NavBar container */
+              
+             padding-left: 5px;
+             margin-left: 25vw;
+             margin-right: 20vw;
+            margin-bottom: 5vh;
+            border-radius: 10px;
+            min-height: 1vw;
+            position: relative; 
+            margin-top: -8px;
+        }
+        
+        .navInner {
+            display: flex;
+            align-items: flex-start; /* Add this line */
+        }
+        .navMenuItem {
+            margin-right: 5px;
+            color: #FFFFFF;
+            font-size: 14px;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .navMenuItemP {
+            margin-top: -16px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            
+            
+            color: #FFFFFF;
+            font-size: 12px;
+            align-self: flex-start; /* Add this line */
+          }
+
+        
+      }
+      @media screen and (max-width: 700px) {
+        .nav {
+            background-color: #D29F9F; /* Background color of the NavBar container */
+              
+             padding-left: 5px;
+             margin-left: 25vw;
+             margin-right:5vw;
+            margin-bottom: 5vh;
+            border-radius: 10px;
+            min-height: 1vw;
+            position: relative; 
+            margin-top: -8px;
+        }
+        
+        
+      }
+      @media screen and (max-width: 750px) {
+        .nav {
+            background-color: #D29F9F; /* Background color of the NavBar container */
+            min-width: 65vw;
+             padding-left: 5px;
+             margin-left: 19vw;
+             margin-right:5vw;
+            margin-bottom: 5vh;
+            border-radius: 10px;
+            min-height: 1vw;
+            position: relative; 
+            margin-top: -8px;
+        }
+        
+        
+       
+
+        
+      }
+      @media screen and (max-width: 650px) {
+        .nav {
+            background-color: #D29F9F; /* Background color of the NavBar container */
+            
+            
+            margin-bottom: 1vh;
+            border-radius: 1px ;
+            min-height: 1vw;
+            min-width: 100vw;
+            margin-left: -2vw;
+            
+            
+            margin-top: -8px;
+        }
+        .navInner {
+           
+                display: flex;
+                align-items: flex-start; /* Add this line */
+                
+        }
+        .navMenu {
+            margin-left: 10vw;
+            display: flex;
+            justify-content: space-around;
+            flex-basis: 100vw;
+            align-items: flex-start; /* Add this line */
+        }    
+        
+       
+
+        
+      }
+      
+       
+      @media screen and (max-width: 500px) {
+        .nav {
+            background-color: #D29F9F; /* Background color of the NavBar container */
+            
+            
+            margin-bottom: 1vh;
+            border-radius: 1px ;
+            min-height: 1vw;
+            min-width: 100vw;
+            margin-left: -2vw;
+            
+            
+            margin-top: -8px;
+        }
+        .navInner {
+           
+                display: flex;
+                align-items: flex-start; /* Add this line */
+                
+        }
+        .navMenu {
+            margin-left: 0vw;
+            display: flex;
+            justify-content: space-around;
+            flex-basis: 100vw;
+            align-items: flex-start; /* Add this line */
+        }    
+        
+       
+
+        
+      }
+      

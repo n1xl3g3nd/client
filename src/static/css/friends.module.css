@@ -1,0 +1,133 @@
+.MainBlock{
+    display: flex;
+    
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.MainContainer{
+    background:linear-gradient(rgba(50, 200, 221, 1),rgba(53, 164, 164, 0));
+    min-width: 40vw;
+    min-height: 60vh;
+    border-radius: 10px;
+
+}
+.oneElementBlock{
+    justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+    min-width: 30vw;
+    
+
+}
+.oneElementBlock:last-child {
+    margin-bottom: 30px;
+  }
+.NameAndImage{
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    min-width:110px;
+    justify-content: space-between;
+    
+   
+}
+.image{
+    border-radius: 100px;
+        margin-top: 10px;
+        width: 36px;
+        height: 36px;
+}
+.fakeImg{
+    border-radius: 100px;
+        margin-top: 10px;
+        width: 36px;
+        height: 36px;
+}
+.ButtonAddBlock{
+   margin-right: 1vw;
+    margin-top: 14px;
+   
+}
+.textBlock{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 100px;
+}
+.userName{
+    
+    font-size: 20px;
+    font-family: "Kanit-Regular", Helvetica;
+    color: #fff;
+    margin-left: 10px;
+}
+.ButtonAdd{
+    border: 3px solid rgb(39, 14, 14);
+    color:#fff;
+    border-radius: 10px;
+    min-height: 40px;
+    min-width: 80px;
+    background-color: rgba(6, 6, 6, 1 );
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.ButtonAdd:active {
+    background-color: rgba(6, 6, 6, 0.8);
+  }
+  @media screen and (max-width: 1500px) {
+    .MainContainer{
+        background:linear-gradient(rgba(50, 200, 221, 1),rgba(53, 164, 164, 0));
+        min-width: 45vw;
+        min-height: 60vh;
+        border-radius: 10px;
+    
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .MainContainer{
+        
+        background:linear-gradient(rgba(50, 200, 221, 1),rgba(53, 164, 164, 0));
+        min-width: 60vw;
+        min-height: 60vh;
+        border-radius: 10px;
+    
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .MainContainer{
+        background:linear-gradient(rgba(50, 200, 221, 1),rgba(53, 164, 164, 0));
+        min-width: 75vw;
+        min-height: 60vh;
+        border-radius: 10px;
+    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .MainBlock{
+        
+        margin-top: -10px;
+        display: flex;
+       
+        min-width: 100vw;
+        align-items: start;
+        justify-content: start;
+        
+    
+    }
+    .MainContainer{
+        border-radius: 1px;
+        margin-left: -7px;
+        padding-left: -10px;
+        background:linear-gradient(rgba(50, 200, 221, 1),rgba(53, 164, 164, 0));
+        min-width: 100vw;
+        min-height: 90vh;
+        border-radius: 10px;
+        max-height: 70vh;
+    
+    }
+  }
+
+    
